@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (m = 49; m < 58; m++)
 		{
-			for (l = 50; l < 58; 1++)
+			for (l = 50; l < 58; l++)
 			{
 				if (l > m && m > n)
 				{
@@ -22,7 +22,7 @@ int main(void)
 					if (n != 55 || m != 56)
 					{
 						putchar(',');
-						putchat(' ');
+						putchar(' ');
 					}
 				}
 			}
@@ -30,3 +30,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
