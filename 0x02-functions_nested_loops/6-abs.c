@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * function - prints absolute number of int n)
+ * function - prints absolute number of int n;
+ * function - _abs prints absolute value
+ * n - the parametwe for int
+ *
+ * Return: Always (0)
  */
 
 int _abs(int n)
