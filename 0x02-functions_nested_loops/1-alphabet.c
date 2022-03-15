@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -6,7 +5,7 @@
  * This scripts print the lowercase alphabet
  *
  * Return: Always (0)
- */
+*/
 
 void print_alphabet(void)
 {
