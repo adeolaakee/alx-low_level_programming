@@ -1,12 +1,9 @@
 #include "main.h"
 /**
- * function - prints absolute number of int n;
- * function - _abs prints absolute value
- * n - the parametwe for int
- *
- * Return: Always (0)
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-
 int _abs(int n)
 {
 	if (n > 0)
