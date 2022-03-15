@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  * this output the word _putchar
+ *
+ */
 int main(void)
 {
 	_putchar('_');
