@@ -18,12 +18,24 @@ void times_table(void)
 		{
 			k = j * n;
 			j++;
-
-			_putchar((k / 10) + '0');
-			_putchar((k % 10) + '0');
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+			while (j == 0)
+			{
+				_putchar(k + '0');
+			}
+				while (k < 10 && j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(k + '0');
+				}
+				else
+				{
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+				}
 		}
 		_putchar('\n');
 		n++;
