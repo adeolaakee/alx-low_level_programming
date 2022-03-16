@@ -19,12 +19,12 @@ void times_table(void)
 			k = j * n;
 			j++;
 
-			times_table(k);
+			_putchar(k);
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
 		}
-		_putchar("\n");
+		_putchar('\n');
 		n++;
 	}
 }
