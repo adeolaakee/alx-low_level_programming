@@ -16,10 +16,10 @@ void times_table(void)
 		j = 0;
 		while (j <= 9)
 		{
-			i = j * n;
+			k = j * n;
 			j++;
 
-			time_table(i)
+			time_table(k);
 			_putchar(",");
 			_putchar(" ");
 		}
