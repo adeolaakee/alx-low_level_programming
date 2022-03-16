@@ -19,7 +19,7 @@ void times_table(void)
 			k = j * n;
 			j++;
 
-			time_table(k);
+			times_table(k);
 			_putchar(",");
 			_putchar(" ");
 		}
